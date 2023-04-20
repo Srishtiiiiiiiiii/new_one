@@ -10,7 +10,9 @@ int main()
 		cin >> a[i];
 		sum = sum + a[i];
 	}
-	cout <<endl<<" sum= "<< sum;
+	cout <<endl<<" sum= "<< sum<<endl;
+	float avg = sum / n;
+	cout << "avg=" << avg;
 	
 
 }
